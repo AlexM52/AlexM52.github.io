@@ -1,0 +1,144 @@
+/*Note to self: Modify to work with media queries to change layout according to screen/device*/
+/*Current code scales according to size...might cause undesireable results*/
+body {
+	background-color: black;
+	background-image: url('blue_lights-wide.jpg');
+	background-attachment: fixed;
+}
+.main {
+	/*background-color: black;				/*BLACK - fallback*/
+	background-color: rgb(0, 0, 80);		/*BLUE - fallback*/
+	/*background-color: rgba(0, 0, 0, 0.9);	/*BLACK - semitransparent*/
+	background-color: rgba(0, 0, 80, 0.9);	/*BLUE - semitransparent*/
+	width: 85%;
+	margin: auto;
+	/*margin-top: 30px;*/
+	padding: 2%;
+}
+nav {
+	position: fixed;
+	top: -1px;
+	left: -1px;
+	width: 100%;
+	background-color: #00e6e6;
+	padding: 5px;
+	/*z-index: 1;*/
+}
+nav span {
+	margin-left: 20px;
+}
+nav a {
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+#head {
+	float: left;
+	width: 100%;
+	padding-left: 1%;
+}#ppic {
+	/*float: left;*/
+	position: absolute;
+	left: 65%;
+	top: 1%;
+	/*margin: auto;*/
+	padding: 1%;
+	width: 25%;
+	/*width: 18%;*/
+	max-width: 300px;
+	background-color: white;
+	margin: 5px;
+	border: 2px solid black;
+	border-radius: 2%;
+	-ms-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	transform: rotate(5deg);
+}
+.top {
+	color: white;
+	font-family: sans-serif;
+	/*border: 5px solid white;*/
+	/*margin-left: 31%;*/
+	padding-left: 1%;
+	/*display: inline;*/
+}
+#tagline {
+	color: gray;
+	margin-left: 1%;
+	/*border: solid gray;*/
+}
+#contact {
+	color: yellow;
+}
+#contact th {
+	text-decoration: underline;
+	/*text-decoration-style: double;*/
+}
+#contact a {
+	color: yellow;
+	/*text-decoration: none;*/
+	font-weight: bold;
+	font-style: italic;
+}
+p {
+	color: blue;
+	font-family: serif;
+	/*font-size: ;*/
+	clear: left;
+	padding: 3% 5% 0% 5%;
+	/*text-align: justify;*/
+}
+.abt {
+	color: white;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 11pt;
+	padding: 3% 5% 0% 5%;
+}
+h2 {
+	color: white;
+	font-family: sans-serif;
+}
+div.c1 {
+	float: left;
+}
+div.c2 {
+	color: aqua;
+	width: 75%;
+	margin: auto;
+}
+div.c2 td {
+	color: aqua;
+	vertical-align: top;
+	float: left;
+	clear: both;
+}
+.tc {
+	border-left: 2px solid white;
+}
+#ref {
+	padding-left: 20px;
+}
+#footer {
+	/*background-color: black;				/*BLACK - fallback*/
+	background-color: rgb(0, 0, 80);		/*BLUE - fallback*/
+	/*background-color: rgba(0, 0, 0, 0.9);	/*BLACK - semitransparent*/
+	background-color: rgba(0, 0, 80, 0.9);	/*BLUE - semitransparent*/
+	width: 85%;
+	height: 20px;
+	margin: auto;
+	/*margin-top: 30px;*/
+	padding: 5px;
+	text-align: center;
+}
+#footer span {
+	margin-left: 20px;
+}
+#footer a {
+	font-size: 10px;
+	color: white;
+	font-family: san-serif;
+}
